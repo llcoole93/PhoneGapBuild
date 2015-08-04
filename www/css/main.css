@@ -1,0 +1,54 @@
+h1{
+	color: red;
+	text-align: center;
+}
+nav{
+	display: inline;
+}
+nav a{
+	margin-right: .5em;
+}
+nav a:active{
+	color: white;
+	background-color: red;	
+}
+nav a:visited{
+	color: purple;	
+}
+nav a:hover{
+	background-color: yellow;
+}
+#greeting > p{
+	color: #911;
+	font-family: fantasy;
+}
+#greeting {
+	border: groove;
+	padding: 1em;
+}
+body{
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: rgba(1, 1, 1, .5);
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+}
+
+@media (max-width: 768px) {
+	h1{
+		color: blue;
+	}	
+}
+@media (max-width: 320px) {
+	h1{
+		color: red;
+	}
+}
+@media (min-width: 768px) {
+	h1{
+		color: black;
+	}	
+}
